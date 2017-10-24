@@ -21,6 +21,10 @@ h1 {
 h2 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-size: 20px;
+	color: black;
+
+
 }
 
 #me {
@@ -35,6 +39,10 @@ h2 {
 
 .about {
 	width: 100%;
+	font-size: 20px;
+	line-height: 1.5;
+
+
 
 }
 
