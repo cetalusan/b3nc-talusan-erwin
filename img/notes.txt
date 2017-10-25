@@ -1,0 +1,17 @@
+packet switching - host 1 to host 2 through nodes ( server )
+packet loss
+
+
+internet protocol
+3 functions:
+	1. device identification - IP address assigned to a device.
+	2. message format - 
+	3. routing - packet routing
+
+application layer
+	- activities and functions that can be performed using the internet.
+	- email, chat applications, file downloader, online games
+
+internet connects participants (network)
+web connects information
+
