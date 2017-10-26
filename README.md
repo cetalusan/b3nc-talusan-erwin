@@ -7,5 +7,5 @@
 # Feedback
 ## 2017-10-25
 ### Getting started with GitLab
-
+Very informative.
 
