@@ -15,3 +15,9 @@ application layer
 internet connects participants (network)
 web connects information
 
+Requirements for portfolio:
+tinyurl.com/tuitt-webdev-portfolio-format
+
+order of pseudo-class:
+LoVe HAte
+
