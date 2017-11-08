@@ -1,12 +1,14 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box; /* To avoid overflowing elements */
+	/* box-sizing: content-box; default value of box-sizing */
 }
 
 .wrapper {
 	border: 1px solid blue;
-	width: 70%;
-	margin: 0 auto;
+	width: 48%;
+	margin: 20px auto;
 	background-color: skyblue;
 	padding: 20px;
 	text-align: center;
@@ -21,6 +23,7 @@ div.wrapper > div > div{
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 15px;
+	width: 50%;
 }
 
 h1,
@@ -60,7 +63,12 @@ strong {
 }
 
 p {
-	padding: 50px;
-	margin-bottom: 50px;
+	padding: 14px;
+	/*margin-bottom: 50px;*/
 	margin-top: 25px;
+}
+
+span {
+	font-size: 2em;
+	color: red;
 }

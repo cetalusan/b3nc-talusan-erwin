@@ -21,3 +21,12 @@ tinyurl.com/tuitt-webdev-portfolio-format
 order of pseudo-class:
 LoVe HAte
 
+HTML element is either block box or inline box
+
+CSS Box model
+- everything is a box
+- boxes can be inline or block-level
+- boxes have content, padding, borders, and margins.
+- they have seemingly arbitrary rules about how they interact.
+- mastering the css box model means you can lay out most web pages.
+

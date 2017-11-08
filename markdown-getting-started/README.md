@@ -49,3 +49,14 @@ echo('Hello World!');
 :zap:
 
 :v:	
+
+:mountain_bicyclist:
+
+## Tables
+
+| firstname | lastname |
+|:----------|:---------|
+| erwin     | talusan  |
+| raymond   | feliciano|
+| jc        | valencia |
+| abu       | hibek    |
