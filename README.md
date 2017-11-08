@@ -11,16 +11,19 @@ Very informative.
 
 ## 2017-11-03
 ### CSS Prep Course
-Very assistive.
+Very assistive.  
 
 ## 2017-11-06
 ### BOX model
 Needs more practice.
 
 ## 2017-11-08
-### Choose your own topic
-Provide your feedback.  
-Provice your second feedback.  
+###CSS BOX model
+Challenging but I'm learning, more familiarization and practice on topics.
+
+## 2017-11-08
+### 
+
 
 
 
