@@ -9,15 +9,19 @@
 ### Getting started with GitLab
 Very informative.
 
-# Feedback
 ## 2017-11-03
 ### CSS Prep Course
 Very assistive.
 
-# Feedback
-## 2017-11-03
-### Intro to CSS
-Focused Discussion on CSS. Enjoying CSS! More practice.
+## 2017-11-06
+### BOX model
+Needs more practice.
+
+## 2017-11-08
+### Choose your own topic
+Provide your feedback.  
+Provice your second feedback.  
+
 
 
 
