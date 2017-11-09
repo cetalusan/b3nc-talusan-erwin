@@ -37,3 +37,6 @@ esc -> normal mode
 :x -> save all changes
 
 git remote --help ->help page
+
+static positioning
+relative positioning
