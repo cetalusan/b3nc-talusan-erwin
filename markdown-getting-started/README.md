@@ -50,6 +50,7 @@ echo('Hello World!');
 
 :v:	
 
+<<<<<<< HEAD
 :mountain_bicyclist:
 
 ## Tables
@@ -60,3 +61,6 @@ echo('Hello World!');
 | raymond   | feliciano|
 | jc        | valencia |
 | abu       | hibek    |
+=======
+:mountain_bicyclist:
+>>>>>>> f1f75dc10628c5e1dec9594418b41327473c5532
