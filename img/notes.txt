@@ -30,3 +30,10 @@ CSS Box model
 - they have seemingly arbitrary rules about how they interact.
 - mastering the css box model means you can lay out most web pages.
 
+
+command-line editor ->vi/vim
+shift + o -> edit mode
+esc -> normal mode
+:x -> save all changes
+
+git remote --help ->help page
