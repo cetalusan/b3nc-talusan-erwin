@@ -21,7 +21,7 @@ Needs more practice.
 ###CSS BOX model
 Challenging but I'm learning, more familiarization and practice on topics.
 
-## 2017-11-08
+## 2017-11-11
 ### 
 
 
