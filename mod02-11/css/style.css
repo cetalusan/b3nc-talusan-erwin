@@ -1,0 +1,109 @@
+
+p {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	color: white;
+	margin: 10px;
+	text-align: left;
+}
+
+.black-container {
+	width: 700px;
+	background-color: black;
+	padding: 10px;
+}
+
+.grey-boxes {
+	height: 150px;
+	width:  150px;
+	margin: 10px;
+	background-color: grey;
+	display: inline-block;
+}
+
+/* section 2 */
+
+.black-container-2 {
+	width: 700px;
+	background-color: black;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+.grey-boxes-2 {
+	height: 150px;
+	width:  150px;
+	margin: 10px;
+	background-color: grey;
+	display: inline-block;
+
+}
+
+.white-border {
+	border: 1px solid white;
+	margin: 10px;
+	color: white;
+	display: inline-block;
+}
+
+
+/* section 3 */
+
+.black-container-3 {
+	width: 700px;
+	background-color: black;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+}
+
+.grey-box {
+	height: 150px;
+	width:  150px;
+	margin: 10px;
+	background-color: grey;
+	float: left;
+}
+
+.black-container-3, p {
+	text-align: left;
+	font-size: 12px;
+}
+
+/* section 4 */
+
+.black-container-4 {
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	background-color: black;
+}
+
+.grey-box-2 {
+	height: 150px;
+	width:  150px;
+	margin: 10px;
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content {
+	width: 70%;
+	display: inline-block;
+}
+
+/* section 5 */
+
+.black-container-5 {
+	width: 700px;
+	padding: 10px;
+	margin: 10px;
+	display: block;
+	background-color: black;
+}
