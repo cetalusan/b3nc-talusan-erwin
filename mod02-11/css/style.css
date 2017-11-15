@@ -1,13 +1,29 @@
 
-p {
-	text-align: center;
-	color: white;
-}
-
 h1 {
 	color: white;
 	margin: 10px;
 	text-align: left;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+	margin: 10px;
+	text-align: left;
+}
+
+p {
+	text-align: left;
+	color: white;
+	font-size: 16px;
+}
+
+.caption {
+	text-align: center;
+	color: white;
 }
 
 .black-container {
@@ -69,14 +85,15 @@ h1 {
 	float: left;
 }
 
-.black-container-3, p {
+.black-container-3 > p {
 	text-align: left;
-	font-size: 12px;
+	font-size: 16px;
 }
 
 /* section 4 */
 
 .black-container-4 {
+	height: auto;
 	width: 700px;
 	padding: 10px;
 	margin: 10px;
@@ -87,7 +104,7 @@ h1 {
 .grey-box-2 {
 	height: 150px;
 	width:  150px;
-	margin: 10px;
+	margin-right: 10px;
 	background-color: grey;
 	display: inline-block;
 	vertical-align: top;
@@ -101,9 +118,203 @@ h1 {
 /* section 5 */
 
 .black-container-5 {
+	height: auto;
+	width: 700px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: black;
+	display: inline-block;
+}
+
+.grey-box-3 {
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	display: inline-block;
+	float: left;
+}
+
+.comment {
+	display: inline-block;
+	height: 100px;
+	width: 90%;
+	margin-left: 5px;
+	position: relative;
+
+}
+
+.button {
+	float: right;
+}
+
+/* section 6 */
+
+.black-container-6 {
+	height: auto;
 	width: 700px;
 	padding: 10px;
 	margin: 10px;
-	display: block;
 	background-color: black;
 }
+
+.grey-boxes-3 {
+	height: 50px;
+	width: 50px;
+	border: 10px;
+	background-color: grey;
+	display: inline-block;
+	float: left;
+}
+
+.grey-boxes-3a {
+	height: 50px;
+	width: 50px;
+	border: 10px;
+	margin-left: 5px;
+	background-color: grey;
+	display: inline-block;
+	float: left;
+}
+
+.grey-boxes-3b {
+	height: 50px;
+	width: 50px;
+	background-color: grey;
+	border: 10px;
+	display: inline-block;
+}
+
+.story {
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+	width: 90%;
+}
+
+.comments {
+	border-left: 1px solid white;
+	display: inline-block;
+	width: 90%;
+	position: relative;
+	padding-top: 10px;
+}
+
+.comment-1 {
+	display: inline-block;
+	width: 80%;
+}
+
+.comment-2 {
+	display: inline-block;
+	width: 80%;
+}
+
+/* section 7 */
+
+.black-container-7 {
+	height: auto;
+	width: 500px;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+}
+
+.grey-boxes-4 {
+	height: 100px;
+	width: 40%;
+	background-color: grey;
+	display: inline-block;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+.username {
+	margin: 0;
+}
+
+.title> p {
+	color: grey;
+	padding: 0px;
+	margin: 0;
+}
+
+.title> h3 {
+	padding: 0px;
+	margin: 0;
+}
+
+/* section 8 */
+
+.black-container-8 {
+	height: auto;
+	width: 500px;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+}
+
+.grey-boxes-5 {
+	height: 100px;
+	width: 40%;
+	background-color: grey;
+	display: inline-block;
+}
+
+.title2 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+.username2 {
+	margin: 0;
+}
+
+.title2> p {
+	color: grey;
+	padding: 0px;
+	margin: 0;
+}
+
+.title2> h3 {
+	padding: 0px;
+	margin: 0;
+}
+
+/* section 9 */
+
+.black-container-9 {
+	height: auto;
+	width: 700px;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	display: inline-block;
+}
+
+.grey-boxes-6 {
+	height: 150px;
+	width: 150px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background-color: grey;
+	float: right;
+}
+
+.title3 {
+	width: 30%;
+	display: inline-block;
+}
+
+.grey6 {
+	width: 69%;
+	float: right;
+	display: inline-block;
+}
+
+/* section 10 */
