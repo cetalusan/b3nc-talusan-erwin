@@ -318,3 +318,60 @@ p {
 }
 
 /* section 10 */
+
+.black-container-10 {
+	width: 1000px;
+	padding: 10px;
+	background-color: black;
+}
+
+.grey-boxes-7 {
+	height: 100px;
+	width:  150px;
+	margin: 10px;
+	background-color: grey;
+	display: inline-block;
+}
+
+.white-border-2 {
+	border: 1px solid white;
+	margin: 10px;
+	color: white;
+	display: block;
+	float: left;
+}
+
+.grey-side {
+	width: 60%
+;}
+
+.grey-box-large {
+	height: 200px;
+	width: 40%;
+	margin-bottom: 10px;
+	background-color: grey;
+	display: inline-block;
+
+}
+
+.menu {
+	margin: 5px;
+	background-color: grey;
+}
+
+.grey-box-baguio {
+	height: 100px;
+	width: 150px;
+	margin: 5px;
+	background-color: grey;
+	display: inline-block;
+}
+
+.content-baguio {
+	text-align: left;
+	display: inline;
+}
+
+.right-side {
+	vertical-align: right;
+}
