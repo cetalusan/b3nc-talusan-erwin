@@ -30,7 +30,7 @@ body {
  */
 
 .nav {
-	background-color: lightyellow;
+	background-color: black;
 	height: 100%;
 	width: 200px;
 	position: fixed;
@@ -42,10 +42,11 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: lightblue;
+	background-color: transparent;
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px;
+	color: white;
 	/*padding: 20px;*/
 }
 
@@ -67,7 +68,7 @@ ul > li > a {
 .banner	{
 	background-color: skyblue;
 	position: relative;
-	min-height: 700px;
+	min-height: 300px;
 }
 
 .box {
@@ -83,7 +84,7 @@ ul > li > a {
 
 .about {
 	background-color: indianred;
-	min-height: 500px;
+	min-height: 300px;
 }
 
 /*
@@ -126,7 +127,7 @@ ul > li > a {
 
 .projects {
 	background-color: crimson;
-	height: 300px;
+	height: 200px;
 }
 
 .gallery {

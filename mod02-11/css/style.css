@@ -341,9 +341,10 @@ p {
 	float: left;
 }
 
-.grey-side {
-	width: 60%
-;}
+.left-side {
+	width: 60%;
+	float: left;
+}
 
 .grey-box-large {
 	height: 200px;
@@ -364,7 +365,8 @@ p {
 	width: 150px;
 	margin: 5px;
 	background-color: grey;
-	display: inline-block;
+	display: block;
+	float: left;
 }
 
 .content-baguio {
@@ -373,5 +375,11 @@ p {
 }
 
 .right-side {
-	vertical-align: right;
+	/*display: inline-block;*/
 }
+
+.menu {
+	display: inline-block;
+	margin: 5px;
+}
+
