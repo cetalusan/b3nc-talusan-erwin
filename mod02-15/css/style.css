@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url( https://png.pngtree.com/thumb_back/fw800/back_pic/04/45/23/605855383738e61.jpg );
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #6B8E23;
+	background-position: all;
+/*	border-left: 50px solid #9ACD32;
+	border-right: 50px solid #9ACD32;*/
+	margin: 40px;
+}
+
+h2 {
+	border: 10px;
+}
+
+.nav,
+.content,
+.sidebar,
+.footer {
+	padding: 10px;
+}
+
+.logo,
+.menu,
+.main,
+.about,
+.services,
+.products,
+.sidebar,
+.footer {
+	background-color: #9ACD32;
+	/*margin: 20px;*/
+	/*padding: 10px;*/
+}
+
+.wrapper {
+	position: relative;
+}
+
+.nav {
+	height: 150px;
+	width: 100%;
+}
+
+.logo {
+	background-color: transparent;
+}
+
+.content {
+	display: block;
+	float: left;
+}
+
+.menu {
+	background-color: #9ACD32;
+	text-decoration: none;
+	border: 1px solid #6B8E23;
+	padding: 10px;
+}
+
+.menu > a {
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 13px;
+
+}
+
+.imgslide{
+	width: 100%;
+	/*height: 200px;*/
+	/*display: block;*/
+}
+
+.image > img {
+	padding: 10px;
+	position: absolute;
+	width: 120%;
+}
+
+.sidebar {
+	/*position: absolute;*/
+	display: inline-block;
+}
+
+.socials > i {
+	width: 30px;
+	height: 30px;
+}
+
+.facebooklogo {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.footer {
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
