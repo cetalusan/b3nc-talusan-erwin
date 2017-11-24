@@ -33,6 +33,7 @@ body {
 	width: 140px;
 	height: 140px;
 	background-color: darkgrey;
+	margin: 0 auto;
 	/*top: 20%;
 	left: 50%;
 	transform: translate(90%, 0%);*/
