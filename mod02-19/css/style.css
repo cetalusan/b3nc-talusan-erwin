@@ -1,0 +1,22 @@
+.well,
+.btn,
+.panel {
+	border-radius: 0;
+}
+
+.well {
+	background-color: #8FBC8F;
+}
+
+.navbar-inverse {
+	background-color: #008080;
+	border-color: #008080;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0;
+	}
+}
+
+
