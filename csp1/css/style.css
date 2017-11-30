@@ -1,18 +1,64 @@
+body {
+	color: #fff;
+	background-color: #000;
+}
+
+h2, h3 {
+	font-size: 1.6em;
+}
+
+figcaption {
+	text-align: center;
+	color: #000;
+}
+
+.mrcbanner {
+	position: fixed;
+}
+
 .navbar-brand {
+	font-size: 16px;
 	display: inline-block;
+	text-align: center;
+}
+
+.navbar {
+	margin-bottom: 0px;
 }
 
 .logo {
-	float: left;
 	padding: 5px;
 }
 
-.container-fluid {
-	background-color: darkblue;
+.container {
 	border: none;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.container-fluid {
+	background-color: #333399;
+	border: none;
+	opacity: 50%;
+}
+
+.thumbnail {
+	margin: 0;
+	float: left;
 }
 
 .clear:after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.social {
+	background-color: transparent;
+	text-align: center;
+}
+
+.footer {
+
+}
+
