@@ -7,19 +7,13 @@ h2, h3 {
 	font-size: 1.6em;
 }
 
-figcaption {
-	text-align: center;
-	color: #000;
-}
-
-.mrcbanner {
-	position: fixed;
-}
-
 .navbar-brand {
-	font-size: 16px;
-	display: inline-block;
+	font-size: 14px;
 	text-align: center;
+}
+
+.navbar-brand > img {
+	border-bottom: 10px;
 }
 
 .navbar {
@@ -32,20 +26,20 @@ figcaption {
 
 .container {
 	border: none;
-	padding: 10px;
+	padding: 20px;
 	border-radius: 0px;
 }
 
 .container-fluid {
-	background-color: #333399;
+	background-color: #000;
 	border: none;
-	opacity: 50%;
+	opacity: 1.0;
 }
 
-.thumbnail {
-	margin: 0;
-	float: left;
+.carousel-caption {
+	left: -20%;
 }
+
 
 .clear:after {
 	content: "";
@@ -57,6 +51,56 @@ figcaption {
 	background-color: transparent;
 	text-align: center;
 }
+
+.jumbotron {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.jumbotron:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.about {
+    margin-bottom: 10px;
+    background-image: url(../img/mrc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.events {
+    margin-bottom: 10px;
+    background-image: url(../img/cvchasedown.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.related {
+	height: 50%;
+    margin-bottom: 10px;
+    background-image: url(../img/nardongputik.jpg);
+    background-size: 165%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.btn {
+	/*border-style: none;*/
+}
+
+.shop {
+	text-align: center;
+}
+
+
 
 .footer {
 
