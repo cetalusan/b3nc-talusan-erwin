@@ -1,0 +1,138 @@
+body {
+    color: #fff;
+    background-color: #000;
+    padding: 30px 0px;
+}
+
+h2, h3 {
+    font-size: 1.6em;
+}
+
+.navbar-brand {
+    font: 17px;
+    text-align: center;
+    display: block;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.container {
+    border: none;
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.container-fluid {
+    background-color: #000;
+    border: none;
+    opacity: 1.0;
+}
+
+.carousel-caption {
+    left: -20%;
+}
+
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.social {
+    background-color: transparent;
+    text-align: center;
+}
+
+.jumbotron {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    padding-bottom: 5px;
+}
+
+.jumbotron:hover {
+    opacity: 1;
+    filter: alpha(opacity=1.0);
+}
+.about {
+    margin-bottom: 10px;
+    background-image: url(../images/mrc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.events {
+    margin-bottom: 10px;
+    background-image: url(../images/cvchasedown.jpg);
+    background-size: 145%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.related {
+    height: 50%;
+    margin-bottom: 10px;
+    background-image: url(../images/nardongputik.jpg);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.shop {
+    height: 50%;
+    margin-bottom: 10px;
+    background-image: url(../images/builtlarge.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.btn-primary {
+    /*background-color: transparent;*/
+    border-style: none;
+}
+
+.shop {
+    text-align: center;
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    
+    z-index:1032;
+}
+
+
+

@@ -1,0 +1,189 @@
+body {
+    color: #fff;
+    background-color: #000;
+    padding: 30px 0px;
+}
+
+h2, h3 {
+    font-size: 1.6em;
+}
+
+.navbar-brand {
+    font: 17px;
+    text-align: center;
+    display: block;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.container {
+    border: none;
+    padding: 20px;
+    border-radius: 0px;
+
+}
+
+.container-fluid {
+    background-color: #000;
+    border: none;
+    opacity: 1.0;
+}
+
+.carousel-caption {
+    left: -20%;
+}
+
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.social {
+    background-color: transparent;
+    text-align: center;
+}
+
+.jumbotron {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    padding-bottom: 5px;
+}
+
+.jumbotron:hover {
+    opacity: 1;
+    filter: alpha(opacity=1.0);
+}
+.about {
+    margin-bottom: 10px;
+    background-image: url(../images/mrc.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.events {
+    margin-bottom: 10px;
+    background-image: url(../images/cvchasedown.jpg);
+    background-size: 145%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.related {
+    height: 50%;
+    margin-bottom: 10px;
+    background-image: url(../images/nardongputik.jpg);
+    background-size: 175%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.shop {
+    height: 50%;
+    margin-bottom: 10px;
+    background-image: url(../images/builtlarge.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.btn-primary {
+    /*background-color: transparent;*/
+    border-style: none;
+}
+
+.shop {
+    text-align: center;
+}
+
+.img-thumbnail {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.control-label {
+    color: #000;
+}
+
+.radio, .terms {
+    color: #000;
+}
+
+.form {
+    width:500px;
+}
+
+.terms{
+    
+}
+
+.register {
+    margin-top: 10px;
+}
+
+
+#firstname {
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.contact p {
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    margin-bottom: 25px;
+}
+
+.contact .form-control {
+    border-radius: 0;
+}
+
+.contact span {
+    border-radius: 0;
+}
+
+.contact .btn {
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #6433FF;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    background-color: #7349F8;
+    color: #fff;
+}
