@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Activity</title>
+</head>
+<body>
+	<h2>Guess the Number 1 - 100</h2>
+	<input type="text" id="number">
+	<br>
+	<button onclick="secretNumber()">Check</button>
+	<h3 id="message"></h3>
+
+<script type="text/javascript">
+	var number = 56
+	// function secretNumber(){
+	// 	var x = document.getElementById("number").value;
+	// 	var message = document.getElementById("message");
+
+			while(x < 4){
+			var num = prompt();
+			if(num===56){
+				alert("correct");
+			}else if(num < 56){
+				alert("higher");
+			}else{
+				alert("lower");
+			}			
+			x++;
+		}
+	
+		// if (x > number){
+		// 	message.innerHTML = "Lower!"
+		// }else if (x < number){
+		// 	message.innerHTML = "Higher!"
+		// }else {
+		// 	message.innerHTML = "Correct!"
+		// }
+	}
+</script>	
+
+</body>
+</html>
