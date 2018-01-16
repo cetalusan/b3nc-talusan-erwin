@@ -22,32 +22,39 @@ require_once 'assets/lib/twelve_days.php';
 
 
 
-	<?php 
-		 
+	<?php
+
+	$days = "";
+
+	// echo getLyrics($days);
 
 
-	// var $gifts = getLyrics();
-
-
-		for ($days = 1; $days < 12; $days++) {
-					echo getLyrics($days);
-
-
-
-		// echo 'On the' . getLyrics(0) 'day of Christmas
-		// my true love sent to me:' . getLyrics(0);
-	}
-
-	 ?>
-
-	 <button onclick="getLyrics()">Next</button>
+	?>
 
 
 
+	<script>
+		// var x = 0;
+		// function showNextLine() {
+			
+		// }
+
+		
+	
+	</script>
 
 
 
-	<script type="text/javascript" src="assets/js/"></script>
+	<button onclick="showNextLine()">Next</button>
+
+
+
+	
+
+
+
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
 
 </body>
 </html>
