@@ -1,17 +1,17 @@
-<?php 
+<?php
 
 function getTitle() {
 	return '12 Days of Christmas';
 }
 
-function getLyrics($day) {
+function getLyrics() {
 
-	$days = array('first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eight', 'ninth', 'tenth', 'eleventh', 'twelfth');
+	$days = array('first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eigth', 'ninth', 'tenth', 'elevent', 'twelfth');
 
 	$gifts = array(
-		'A partide in a pear tree',
-		'Two turle doves',
-		'Three french hens',
+		'A partride in a pear tree',
+		'Two turtle doves',
+		'Three French hens',
 		'Four calling birds',
 		'Five golden rings',
 		'Six geese a-laying',
@@ -23,25 +23,25 @@ function getLyrics($day) {
 		'Twelve drummers drumming'
 	);
 
+	for ($i = 0; $i < count($days); $i++) {
 
+		if ($i != 11)
+			echo '<div id="day' . $i . '" onclick="hideShowDays(this.id)">';
+		else
+			echo '<div id="day' . $i . '">';
 
-	for ($i = 0; $i < count($days); $i++) { 
-			echo '<div id="line' . $i . '">';
-			echo 'On the ' . $days[$i] . ' of Christmas my true love sent to me:<br>';
+		echo 'On the ' . $days[$i] . ' day of Christmas my true love gave to me<br>';
 
-			if ($i == 0)
-				echo $gifts[$i] . '<br>';
-			else
-				for ($j = $i; $j >= 0; $j--) {
-					if ($j == 0)
-						echo 'And ' . $gifts[$j] . '<br>';
-					else
-						echo $gifts[$j] . '<br>';
-				}
+		if ($i == 0)  // first day
+			echo $gifts[$i] . '<br>';
+		else // days 2 to 12
+			for ($j = $i; $j >= 0; $j--) {
+				if ($j == 0)
+					echo 'And ' . $gifts[$j] . '<br>';
+				else
+					echo $gifts[$j] . '<br>';
 			}
 
-
-	// return $days[$day] . ' ' . $gifts[$day];
-
+		echo '</div>';
+	}
 }
-
