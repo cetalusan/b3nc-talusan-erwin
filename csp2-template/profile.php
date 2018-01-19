@@ -1,7 +1,9 @@
 <?php
 
+session_start();
+
 function getTitle() {
-	echo 'Index | Welcome to Beeer Web App';
+	echo 'Profile | Welcome to Beeer Web App';
 }
 
 include 'partials/head.php';
@@ -19,9 +21,8 @@ include 'partials/head.php';
 	</header>
 
 	<main class="wrapper">
-		<!-- feedback for signout successful -->
-
-		<h1>Index</h1>
+		<h1>Profile</h1>
+		
 	</main> <!-- /. wrapper -->
 
 	<footer>

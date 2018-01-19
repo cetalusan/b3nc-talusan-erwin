@@ -20,6 +20,14 @@ body {
 
 }
 
+table,
+th,
+td,
+tr {
+	padding: 15px;
+	border: 1px solid black;
+}
+
 
 
 

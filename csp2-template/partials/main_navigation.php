@@ -13,14 +13,20 @@
 			<li><a href="contact.php">Contact</a></li>
 			<?php 
 
-			if (isset($_SESSION['current_user']))
+			if (isset($_SESSION['current_user'])) {
+				if ($_SESSION['role'] == 'user') // if regular user
+					echo '<li><a href="profile.php">Profile</a></li>';
+				else // if admin role
+					echo '<li><a href="settings.php">Settings</a></li>';
+
 				echo '<li><a href="signout.php">Sign Out</a></li>';
-			else
-			echo '<li><a href="signin.php">Sign In</a></li>';
+			}
+			else {
+				echo '<li><a href="signin.php">Sign In</a></li>';
+				echo '<li><a href="signup.php">Sign Up</a></li>';
+			}
 
 			?>
-
-			<li><a href="signup.php">Sign Up</a></li>
 		</ul>
 	</div>
 </nav>

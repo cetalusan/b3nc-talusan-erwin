@@ -36,7 +36,7 @@ include 'partials/head.php';
 
 		<form method="POST" action="authenticate.php">
 			<label for="username">Username</label>
-			<input type="username" name="username" id="username" placeholder="Username">
+			<input type="text" name="username" id="username" placeholder="Username">
 			
 			<label>Password</label>
 			<input type="password" name="password" id="password" placeholder="Password">

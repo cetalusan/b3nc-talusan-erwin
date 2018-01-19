@@ -2,11 +2,16 @@
 
 session_start();
 
-$users = [
-	['username' => 'admin', 'password' => 'abc123'],
-	['username' => 'erwin', 'password' => '123abc'],
-	['username' => 'chris', 'password' => 'abcd1234']
-];
+// $users = [
+// 	['username' => 'admin', 'password' => 'abc123'],
+// 	['username' => 'erwin', 'password' => '123abc'],
+// 	['username' => 'chris', 'password' => 'abcd1234']
+// ];
+
+// require 'users.php';
+
+$file = file_get_contents('assets/users.json');
+$users = json_decode($file, true);
 
 $isLoginSuccessful = false; //monitor signin status
 
@@ -25,6 +30,7 @@ foreach ($users as $user) {
 		// echo ' Password is correct.';
 		// header('location: home.php'); //will reroute to home.php
 		$isLoginSuccessful = true;
+		$_SESSION['role'] = $user['role']; // get role of current user
 		break;
 	}
 }
